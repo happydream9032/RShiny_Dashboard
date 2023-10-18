@@ -4,7 +4,7 @@ library(shinydashboard)
 hidden(fluidRow(
   id = "main",
   ui <- dashboardPage(
-    dashboardHeader(title = "Dashboard", 
+    dashboardHeader(title = "Dash", 
                     tags$li(class = "dropdown", id = "submit_sign_out",style = "font-size : 13px; color: white; margin-top: 15px; margin-right: 10px",class = "pull-right",
                                                  tags$p("Sign Out"))
                     ),
